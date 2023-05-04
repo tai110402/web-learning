@@ -1,0 +1,49 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.banner {
+    height: 630px;
+    background-image: url("./banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+}
+
+.about-sign-in {
+
+    height: 80px;
+    width: 100%;
+    text-align: right;
+
+}
+
+a.about,
+a.sign-in {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 7px 15px;
+    text-transform: uppercase;
+}
+
+a.sign-in {
+    margin-right: 63px;
+    border-radius: 20px;
+    border: 1px solid green;
+}
+
+.logo {
+    background: url('./logo.png') center center no-repeat;
+    height: 100%;
+}
